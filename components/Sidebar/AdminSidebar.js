@@ -24,7 +24,7 @@ export default function Sidebar() {
             <a
               href="#admin"
               className="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0">
-              SIMTYA
+              HHG - Foundation
             </a>
           </Link>
           {/* User */}
@@ -50,7 +50,7 @@ export default function Sidebar() {
                     <a
                       href="#admin"
                       className="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0">
-                      Notus NextJS
+                      HHG - Foundation
                     </a>
                   </Link>
                 </div>
@@ -106,23 +106,23 @@ export default function Sidebar() {
                 </Link>
               </li>
               <li className="items-center">
-                <Link href="/admin/maintenance">
+                <Link href="/admin/service">
                   <a
                     href="#admin"
                     className={
                       "text-xs uppercase py-3 font-bold block " +
-                      (router.pathname.indexOf("/admin/maintenance") !== -1
+                      (router.pathname.indexOf("/admin/service") !== -1
                         ? "text-lightBlue-500 hover:text-lightBlue-600"
                         : "text-blueGray-700 hover:text-blueGray-500")
                     }>
                     <i
                       className={
                         "fas fa-tv mr-2 text-sm " +
-                        (router.pathname.indexOf("/admin/maintenance") !== -1
+                        (router.pathname.indexOf("/admin/service") !== -1
                           ? "opacity-75"
                           : "text-blueGray-300")
                       }></i>{" "}
-                    Vehicle Maintenance
+                    Vehicle Service
                   </a>
                 </Link>
               </li>

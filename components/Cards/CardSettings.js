@@ -11,9 +11,8 @@ export default function CardSettings() {
             <h6 className="text-blueGray-700 text-xl font-bold">My account</h6>
             <button
               className="bg-blueGray-700 active:bg-blueGray-600 text-white font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 ease-linear transition-all duration-150"
-              type="button"
-            >
-              Settings
+              type="button">
+              Change
             </button>
           </div>
         </div>
@@ -27,8 +26,7 @@ export default function CardSettings() {
                 <div className="relative w-full mb-3">
                   <label
                     className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                    htmlFor="grid-password"
-                  >
+                    htmlFor="grid-password">
                     Username
                   </label>
                   <input
@@ -42,8 +40,7 @@ export default function CardSettings() {
                 <div className="relative w-full mb-3">
                   <label
                     className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                    htmlFor="grid-password"
-                  >
+                    htmlFor="grid-password">
                     Email address
                   </label>
                   <input
@@ -57,8 +54,7 @@ export default function CardSettings() {
                 <div className="relative w-full mb-3">
                   <label
                     className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                    htmlFor="grid-password"
-                  >
+                    htmlFor="grid-password">
                     First Name
                   </label>
                   <input
@@ -72,8 +68,7 @@ export default function CardSettings() {
                 <div className="relative w-full mb-3">
                   <label
                     className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                    htmlFor="grid-password"
-                  >
+                    htmlFor="grid-password">
                     Last Name
                   </label>
                   <input
@@ -95,8 +90,7 @@ export default function CardSettings() {
                 <div className="relative w-full mb-3">
                   <label
                     className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                    htmlFor="grid-password"
-                  >
+                    htmlFor="grid-password">
                     Address
                   </label>
                   <input
@@ -110,8 +104,7 @@ export default function CardSettings() {
                 <div className="relative w-full mb-3">
                   <label
                     className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                    htmlFor="grid-password"
-                  >
+                    htmlFor="grid-password">
                     City
                   </label>
                   <input
@@ -125,8 +118,7 @@ export default function CardSettings() {
                 <div className="relative w-full mb-3">
                   <label
                     className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                    htmlFor="grid-password"
-                  >
+                    htmlFor="grid-password">
                     Country
                   </label>
                   <input
@@ -140,8 +132,7 @@ export default function CardSettings() {
                 <div className="relative w-full mb-3">
                   <label
                     className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                    htmlFor="grid-password"
-                  >
+                    htmlFor="grid-password">
                     Postal Code
                   </label>
                   <input
@@ -163,8 +154,7 @@ export default function CardSettings() {
                 <div className="relative w-full mb-3">
                   <label
                     className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                    htmlFor="grid-password"
-                  >
+                    htmlFor="grid-password">
                     About me
                   </label>
                   <textarea
@@ -172,8 +162,7 @@ export default function CardSettings() {
                     className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     rows="4"
                     defaultValue="A beautiful UI Kit and Admin for NextJS & Tailwind CSS. It is Free
-                    and Open Source."
-                  ></textarea>
+                    and Open Source."></textarea>
                 </div>
               </div>
             </div>

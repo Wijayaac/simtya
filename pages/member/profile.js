@@ -7,7 +7,7 @@ import CardProfile from "components/Cards/CardProfile.js";
 
 // layout for page
 
-import Admin from "layouts/Admin.js";
+import Member from "layouts/Member.js";
 
 export default function Settings() {
   return (
@@ -24,4 +24,4 @@ export default function Settings() {
   );
 }
 
-Settings.layout = Admin;
+Settings.layout = Member;

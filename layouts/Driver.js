@@ -3,7 +3,7 @@ import React from "react";
 // components
 
 import AdminNavbar from "components/Navbars/AdminNavbar.js";
-import Sidebar from "components/Sidebar/AdminSidebar.js";
+import Sidebar from "components/Sidebar/DriverSidebar.js";
 import HeaderStats from "components/Headers/HeaderStats.js";
 import FooterAdmin from "components/Footers/FooterAdmin.js";
 
