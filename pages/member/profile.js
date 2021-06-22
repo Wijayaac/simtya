@@ -9,7 +9,7 @@ import CardProfile from "components/Cards/CardProfile.js";
 
 import Member from "layouts/Member.js";
 
-export default function Settings() {
+export default function Profile() {
   return (
     <>
       <div className="flex flex-wrap">
@@ -24,4 +24,4 @@ export default function Settings() {
   );
 }
 
-Settings.layout = Member;
+Profile.layout = Member;

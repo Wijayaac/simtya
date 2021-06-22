@@ -7,7 +7,7 @@ import CardTable from "components/Cards/CardTable";
 
 import Member from "layouts/Member.js";
 
-export default function Dashboard() {
+export default function Pickup() {
   return (
     <>
       <div className="flex flex-wrap">
@@ -19,4 +19,4 @@ export default function Dashboard() {
   );
 }
 
-Dashboard.layout = Member;
+Pickup.layout = Member;

@@ -1,16 +1,18 @@
 import React from "react";
 
 // components
+import CardTable from "components/Cards/CardTable.js";
+import LoanModal from "components/Modals/LoanModal.js";
 
-import CardTable from "components/Cards/CardTable";
 // layout for page
 
 import Member from "layouts/Member.js";
 
-export default function Dashboard() {
+export default function Loan() {
   return (
     <>
       <div className="flex flex-wrap">
+        <LoanModal></LoanModal>
         <div className="w-full mb-12 px-4">
           <CardTable />
         </div>
@@ -19,4 +21,4 @@ export default function Dashboard() {
   );
 }
 
-Dashboard.layout = Member;
+Loan.layout = Member;

@@ -7,7 +7,7 @@ import CardStats from "components/Cards/CardStats.js";
 
 export default function HeaderStats() {
   const router = useRouter();
-  if (router.pathname !== "/admin/settings") {
+  if (router.pathname !== "/member/profile") {
     return (
       <>
         {/* Header */}
